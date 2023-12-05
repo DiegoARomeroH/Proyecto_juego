@@ -21,10 +21,10 @@ function ktoraKaczka() {
     return duckNumber;
 }
 
-setInterval(pojawianie, 400);
+setInterval(pojawianie, 650);
 
 function znikanie(numer) {
-    setTimeout(function () { wraps[numer].classList.remove("show") }, 400);
+    setTimeout(function () { wraps[numer].classList.remove("show") }, 650);
 }
 
 function pojawianie() {

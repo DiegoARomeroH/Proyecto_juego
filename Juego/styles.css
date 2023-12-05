@@ -5,14 +5,18 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* flex-direction: column;
+    align-items: center; */
     justify-content: center;
+    width: 100vw;
     height: 100vh;
+    object-fit: cover;
 }
 
 .container {
+    margin-top: 90px;
     text-align: center;
+    width: 500px;
 }
 
 h1 {
@@ -28,13 +32,11 @@ h1 {
 }
 
 .game {
-    width: 30%;
     margin: 20px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    height: 70vh;
 }
 
 .wrapp {
@@ -56,7 +58,7 @@ h1 {
     background-color: rgb(255, 201, 51);
     top: 100%;
     left: 0;
-    transition: 0.2s;
+    transition: 0.5s;
     border-radius: 50%;
 }
 
